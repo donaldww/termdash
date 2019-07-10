@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas/braille"
-	"github.com/mum4k/termdash/internal/numbers"
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/canvas/braille"
+	"github.com/donaldww/termdash/internal/numbers"
 )
 
 // braillePixelChange represents an action on a pixel on the braille canvas.

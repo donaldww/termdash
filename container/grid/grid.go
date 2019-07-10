@@ -18,8 +18,8 @@ package grid
 import (
 	"fmt"
 
-	"github.com/mum4k/termdash/container"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/donaldww/termdash/container"
+	"github.com/donaldww/termdash/widgetapi"
 )
 
 // Builder builds grid layouts.

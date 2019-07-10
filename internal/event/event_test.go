@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/donaldww/termdash/internal/event/testevent"
+	"github.com/donaldww/termdash/keyboard"
+	"github.com/donaldww/termdash/terminal/terminalapi"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/internal/event/testevent"
-	"github.com/mum4k/termdash/keyboard"
-	"github.com/mum4k/termdash/terminal/terminalapi"
 )
 
 // receiverMode defines how the receiver behaves.

@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas/braille"
-	"github.com/mum4k/termdash/internal/draw"
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/canvas/braille"
+	"github.com/donaldww/termdash/internal/draw"
 )
 
 // Type identifies the type of the segment that is drawn.

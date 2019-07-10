@@ -17,9 +17,9 @@ package text
 import (
 	"fmt"
 
-	"github.com/mum4k/termdash/internal/wrap"
-	"github.com/mum4k/termdash/keyboard"
-	"github.com/mum4k/termdash/mouse"
+	"github.com/donaldww/termdash/internal/wrap"
+	"github.com/donaldww/termdash/keyboard"
+	"github.com/donaldww/termdash/mouse"
 )
 
 // options.go contains configurable options for Text.

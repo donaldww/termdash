@@ -19,9 +19,9 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/donaldww/termdash/internal/canvas"
+	"github.com/donaldww/termdash/linestyle"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/linestyle"
 )
 
 func TestMultiEdgeNodes(t *testing.T) {

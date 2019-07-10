@@ -18,10 +18,10 @@ import (
 	"image"
 	"testing"
 
+	"github.com/donaldww/termdash/internal/canvas"
+	"github.com/donaldww/termdash/internal/canvas/braille"
+	"github.com/donaldww/termdash/internal/canvas/braille/testbraille"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/internal/canvas/braille"
-	"github.com/mum4k/termdash/internal/canvas/braille/testbraille"
 )
 
 func TestRequired(t *testing.T) {

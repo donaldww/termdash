@@ -20,9 +20,9 @@ import (
 	"testing"
 	"unicode"
 
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/canvas/buffer"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas/buffer"
 )
 
 func TestValidTextAndCells(t *testing.T) {

@@ -18,15 +18,15 @@ import (
 	"image"
 	"testing"
 
+	"github.com/donaldww/termdash/internal/canvas"
+	"github.com/donaldww/termdash/internal/canvas/testcanvas"
+	"github.com/donaldww/termdash/internal/draw/testdraw"
+	"github.com/donaldww/termdash/internal/faketerm"
+	"github.com/donaldww/termdash/keyboard"
+	"github.com/donaldww/termdash/mouse"
+	"github.com/donaldww/termdash/terminal/terminalapi"
+	"github.com/donaldww/termdash/widgetapi"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/internal/canvas/testcanvas"
-	"github.com/mum4k/termdash/internal/draw/testdraw"
-	"github.com/mum4k/termdash/internal/faketerm"
-	"github.com/mum4k/termdash/keyboard"
-	"github.com/mum4k/termdash/mouse"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgetapi"
 )
 
 // keyEvents are keyboard events to send to the widget.

@@ -18,14 +18,14 @@ import (
 	"image"
 	"testing"
 
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/canvas"
+	"github.com/donaldww/termdash/internal/canvas/testcanvas"
+	"github.com/donaldww/termdash/internal/draw"
+	"github.com/donaldww/termdash/internal/draw/testdraw"
+	"github.com/donaldww/termdash/internal/faketerm"
+	"github.com/donaldww/termdash/widgetapi"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/internal/canvas/testcanvas"
-	"github.com/mum4k/termdash/internal/draw"
-	"github.com/mum4k/termdash/internal/draw/testdraw"
-	"github.com/mum4k/termdash/internal/faketerm"
-	"github.com/mum4k/termdash/widgetapi"
 )
 
 func TestSparkLine(t *testing.T) {

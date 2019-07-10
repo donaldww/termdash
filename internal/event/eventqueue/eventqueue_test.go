@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/donaldww/termdash/terminal/terminalapi"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/terminal/terminalapi"
 )
 
 func TestQueue(t *testing.T) {

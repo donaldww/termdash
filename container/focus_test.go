@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/event"
-	"github.com/mum4k/termdash/internal/event/testevent"
-	"github.com/mum4k/termdash/internal/faketerm"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/mouse"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/event"
+	"github.com/donaldww/termdash/internal/event/testevent"
+	"github.com/donaldww/termdash/internal/faketerm"
+	"github.com/donaldww/termdash/linestyle"
+	"github.com/donaldww/termdash/mouse"
+	"github.com/donaldww/termdash/terminal/terminalapi"
 )
 
 // pointCase is a test case for the pointCont function.

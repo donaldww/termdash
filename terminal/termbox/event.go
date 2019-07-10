@@ -19,9 +19,9 @@ package termbox
 import (
 	"image"
 
-	"github.com/mum4k/termdash/keyboard"
-	"github.com/mum4k/termdash/mouse"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/donaldww/termdash/keyboard"
+	"github.com/donaldww/termdash/mouse"
+	"github.com/donaldww/termdash/terminal/terminalapi"
 	tbx "github.com/nsf/termbox-go"
 )
 

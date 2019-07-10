@@ -18,11 +18,11 @@ import (
 	"image"
 	"testing"
 
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/area"
+	"github.com/donaldww/termdash/internal/canvas/buffer"
+	"github.com/donaldww/termdash/internal/faketerm"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/area"
-	"github.com/mum4k/termdash/internal/canvas/buffer"
-	"github.com/mum4k/termdash/internal/faketerm"
 )
 
 func TestNew(t *testing.T) {

@@ -19,16 +19,16 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/area"
+	"github.com/donaldww/termdash/internal/canvas"
+	"github.com/donaldww/termdash/internal/canvas/braille/testbraille"
+	"github.com/donaldww/termdash/internal/canvas/testcanvas"
+	"github.com/donaldww/termdash/internal/faketerm"
+	"github.com/donaldww/termdash/internal/segdisp"
+	"github.com/donaldww/termdash/internal/segdisp/segment"
+	"github.com/donaldww/termdash/internal/segdisp/segment/testsegment"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/area"
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/internal/canvas/braille/testbraille"
-	"github.com/mum4k/termdash/internal/canvas/testcanvas"
-	"github.com/mum4k/termdash/internal/faketerm"
-	"github.com/mum4k/termdash/internal/segdisp"
-	"github.com/mum4k/termdash/internal/segdisp/segment"
-	"github.com/mum4k/termdash/internal/segdisp/segment/testsegment"
 )
 
 func TestSegmentString(t *testing.T) {

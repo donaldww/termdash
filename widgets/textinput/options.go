@@ -19,11 +19,11 @@ package textinput
 import (
 	"fmt"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/runewidth"
-	"github.com/mum4k/termdash/internal/wrap"
-	"github.com/mum4k/termdash/linestyle"
+	"github.com/donaldww/termdash/align"
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/runewidth"
+	"github.com/donaldww/termdash/internal/wrap"
+	"github.com/donaldww/termdash/linestyle"
 )
 
 // Option is used to provide options.

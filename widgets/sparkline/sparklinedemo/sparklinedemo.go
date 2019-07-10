@@ -21,13 +21,13 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/mum4k/termdash"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/container"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/terminal/termbox"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgets/sparkline"
+	"github.com/donaldww/termdash"
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/container"
+	"github.com/donaldww/termdash/linestyle"
+	"github.com/donaldww/termdash/terminal/termbox"
+	"github.com/donaldww/termdash/terminal/terminalapi"
+	"github.com/donaldww/termdash/widgets/sparkline"
 )
 
 // playSparkLine continuously adds values to the SparkLine, once every delay.

@@ -18,11 +18,11 @@ import (
 	"image"
 	"testing"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/internal/canvas/testcanvas"
-	"github.com/mum4k/termdash/internal/faketerm"
-	"github.com/mum4k/termdash/linestyle"
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/canvas"
+	"github.com/donaldww/termdash/internal/canvas/testcanvas"
+	"github.com/donaldww/termdash/internal/faketerm"
+	"github.com/donaldww/termdash/linestyle"
 )
 
 func TestHVLines(t *testing.T) {

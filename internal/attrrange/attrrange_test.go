@@ -18,8 +18,8 @@ import (
 	"log"
 	"testing"
 
+	"github.com/donaldww/termdash/cell"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
 )
 
 func Example() {

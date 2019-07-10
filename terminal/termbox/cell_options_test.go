@@ -17,7 +17,7 @@ package termbox
 import (
 	"testing"
 
-	"github.com/mum4k/termdash/cell"
+	"github.com/donaldww/termdash/cell"
 	tbx "github.com/nsf/termbox-go"
 )
 

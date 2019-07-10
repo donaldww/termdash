@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mum4k/termdash"
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/container"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/terminal/termbox"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgets/button"
-	"github.com/mum4k/termdash/widgets/segmentdisplay"
+	"github.com/donaldww/termdash"
+	"github.com/donaldww/termdash/align"
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/container"
+	"github.com/donaldww/termdash/linestyle"
+	"github.com/donaldww/termdash/terminal/termbox"
+	"github.com/donaldww/termdash/terminal/terminalapi"
+	"github.com/donaldww/termdash/widgets/button"
+	"github.com/donaldww/termdash/widgets/segmentdisplay"
 )
 
 func main() {

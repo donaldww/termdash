@@ -23,10 +23,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas/buffer"
-	"github.com/mum4k/termdash/internal/event/eventqueue"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/canvas/buffer"
+	"github.com/donaldww/termdash/internal/event/eventqueue"
+	"github.com/donaldww/termdash/terminal/terminalapi"
 )
 
 // Option is used to provide options.

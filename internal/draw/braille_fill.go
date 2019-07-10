@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas/braille"
+	"github.com/donaldww/termdash/cell"
+	"github.com/donaldww/termdash/internal/canvas/braille"
 )
 
 // BrailleFillOption is used to provide options to BrailleFill.

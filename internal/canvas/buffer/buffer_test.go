@@ -19,8 +19,8 @@ import (
 	"image"
 	"testing"
 
+	"github.com/donaldww/termdash/cell"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
 )
 
 func TestNewCells(t *testing.T) {
