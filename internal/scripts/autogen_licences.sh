@@ -39,8 +39,6 @@ if [ ! -d "${BIN_DIR}" ]; then
   exit 1
 fi
 
-
-
 if [ ! -d "${INSTALL_DIR}" ]; then
   git clone https://github.com/mbrukman/autogen.git "${BIN_DIR}/autogen"
   if [ $? -ne 0 ]; then
@@ -61,7 +59,7 @@ LICENCE="Licensed under the Apache License"
 
 MISSING=0
 
-for FILE in `eval ${FIND_FILES}`; do
+for FILE in $(eval ${FIND_FILES}); do
   if ! grep -q "${LICENCE}" "${FILE}"; then
     MISSING=1
     eval "${ADD_LICENCE} ${FILE}"
@@ -69,7 +67,7 @@ for FILE in `eval ${FIND_FILES}`; do
 done
 
 if [[ ! -z "$DRY_RUN" ]] && [ $MISSING -eq 1 ]; then
-      echo -e "\nFound files with missing licences. To fix, run the commands above."
-      echo "Or just execute:"
-      echo "$0 . WRITE"
+  echo -e "\nFound files with missing licences. To fix, run the commands above."
+  echo "Or just execute:"
+  echo "$0 . WRITE"
 fi
